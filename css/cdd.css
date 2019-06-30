@@ -1,0 +1,918 @@
+
+/*设置背景*/
+body{
+	
+	/*height: 10000px;*/
+}
+
+.cdd_all {
+	/*height: 6847px;*/
+	width: 1519px;
+	margin:0 auto;
+	position: relative;
+	/*padding: 1px;*/
+
+}
+#fs_p div{
+    display: none;
+}
+/*.cdd_top {
+	width: 1139px;
+	height: 818px;
+	position: relative;
+}*/
+/*左侧边栏部分*/
+.cdd_left{
+	width: 201px;
+	/*height: 6847px;*/
+	height: 808px;
+	float: left;
+	background: url(../images/aside.png) no-repeat;
+	position: fixed;
+}
+.cdd_left img {
+	width: 186px;
+}
+.cdd_left ul {  
+	height: 490px;
+	position: relative;
+	z-index: 99;
+}
+ .cdd_left li{	
+	height: 70px;	
+	line-height: 68px;
+	margin: 0 auto;	
+	font-weight: bold;
+	text-indent: -13px;	
+}
+.cdd_left li:first-child {
+	height: 99px;
+}
+.cdd_left li:nth-child(2):hover{
+	background:url(../images/aside.png) no-repeat -201px -98px;
+}
+.cdd_left li:nth-child(3):hover{
+	background:url(../images/aside.png) no-repeat -201px -168px;
+}
+.cdd_left li:nth-child(4):hover{
+	background:url(../images/aside.png) no-repeat -201px -239px;
+}
+.cdd_left li:nth-child(5):hover{
+	background:url(../images/aside.png) no-repeat -201px -309px;
+}
+.cdd_left li:nth-child(6):hover{
+	background:url(../images/aside.png) no-repeat -201px -380px;
+}
+.cdd_left li:nth-child(7):hover{
+	background:url(../images/aside.png) no-repeat -201px -450px;
+}
+.cdd_left li:nth-child(8):hover{
+	background:url(../images/aside.png) no-repeat -201px -518px;
+}
+.cdd_left li:last-child {
+	width: 202px;
+	height: 52px;
+	
+} 
+.cdd_left li:last-child a span {
+	font-size: 14px;
+	color: #aa9666;
+	margin-left: 40px;
+	font-family: '宋体';
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.space {
+	width: 201px;
+	margin-top: 151px;
+	height: 6206px;
+	background: url(../images/aside1_bg.png) repeat;
+}
+/*1.中间部分开始*/
+.cdd_center {
+	width: 1317px;
+	height: 818px;
+	float: right;
+	display: inline-block;
+	position: absolute;
+	left: 201px;
+	
+}
+/*1.1第一部分游戏特色开始*/
+ .cdd_feature {	
+	width: 1317px;
+	height: 807px;
+    position: relative;
+	background: url(../images/feature_bg.jpg) no-repeat;   	
+    /*left: 201px;*/
+    display: block;
+}
+.cdd_feature .mv {
+	width: 700px;
+	height: 400px;
+	background: url(../images/aside_bg.png) repeat;
+	position: absolute;
+	top: 148px;
+	left: 86px;
+}
+.cdd_feature .circle {
+	height: 130px;
+	width: 558px;
+	background: url(../images/tese_btn.png) no-repeat;
+	position: absolute;
+	left: 86px;
+	top: 610px;
+	z-index: 100;}
+.cdd_feature .circle li {
+    width: 186px;
+    height: 130px;
+    position: relative;
+    float: left;
+}
+.cdd_feature .circle li a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.cdd_feature .circle li:first-child :hover{
+	
+	background: url(../images/tese_btn.png) no-repeat 0 -130px;
+	
+}
+.cdd_feature .circle li:nth-child(2) :hover{
+	background: url(../images/tese_btn.png) no-repeat -186px -130px;
+}
+.cdd_feature .circle li:nth-child(3) :hover{
+	background: url(../images/tese_btn.png) no-repeat -372px -130px;
+} 
+/*第一部分游戏特色结束*/
+
+/*第二部分开始*/
+.cdd_job {
+	background-color: gray;
+	height: 808px;
+}
+.cdd_job p{
+    color: pink;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.cdd_job img{
+	margin-left: 60px;
+	margin-top: 30px;
+	width: 230px;
+	height: 400px;
+}
+
+/*第二部分结束*/
+
+/*第三部分装备展示开始*/
+.feature_right {
+	width: 1317px;
+	height: 807px;
+    float: left;
+	/*position: absolute;*/
+	background: url(../images/equip_bg.jpg) no-repeat -201px;
+	/*top: 0px;
+	left: 201px;*/
+	display: none;
+}
+.right_content {
+	width: 403px;
+	height: 520px;
+	position: absolute;
+	left: 662px;
+	top: 165px;
+}
+.right_wrap {
+	display: block;
+	width: 403px;
+	height: 520px;
+}
+#wrap0 {
+	background: url(../images/zb-1.jpg) no-repeat;
+}
+#wrap1 {
+	background: url();
+}
+.right_nav {
+	width: 42px;
+	height: 480px;
+	position: absolute;
+	left: 620px;
+	top: 194px;
+	z-index: 9998;
+	cursor: pointer;
+}
+
+.right_nav a {
+	width: 42px;
+    height: 60px;
+    display: block;
+    font-size: 22px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    font-weight: 700;
+
+}
+.right_nav .current {
+	background: url(../images/right_nav.png) no-repeat;
+	
+	text-decoration: none;
+}
+
+#right_nav1 {
+	top: 53px;
+}
+#right_nav2 {
+	top: 106px;
+}
+#right_nav3 {
+	top: 159px;
+}
+#right_nav4 {
+	top: 212px;
+}
+#right_nav5 {
+	top: 265px;
+}
+#right_nav6 {
+	top: 318px;
+}
+#right_nav7 {
+	top: 371px;
+}
+#right_nav8 {
+	top: 424px;
+}
+.equip_intro {
+	position: absolute;
+	left: 655px;
+	top: 764px;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Microsoft YaHei";
+	color: #020202;
+}
+.equip_btn {
+	display: block;
+	position: absolute;
+	background: url(../images/equip_btn.jpg) no-repeat;
+	top: 751px;
+	height: 39px;
+	text-indent: -9999px;
+}
+#equip_btn1 {
+	left: 125px;
+	width: 121px;
+	background-position: 0 0;
+}
+#equip_btn2 {
+    left: 251px;
+    width: 106px;
+    background-position: -126px 0;
+}
+#equip_btn3 {
+    left: 362px;
+    width: 157px;
+    background-position: -237px 0;
+}
+.equip_word {
+	display: block;
+	position: absolute;
+	background: url(../images/equip_word.png) no-repeat;
+	left: 115px;
+	top: 240px;
+	height: 205px;
+	width: 405px;
+}
+
+/*第四部分炫酷时装开始*/
+.main {	
+	height: 818px;
+	width: 1317px;
+	float: left;
+	position: absolute;
+	 overflow: hidden;
+    top: 0px;
+	/*left: 201px;*/
+	display: none;
+}
+.fashion {
+	float: left;
+	/*position: absolute;*/
+	background: url(../images/bg_kxsz.jpg) no-repeat -201px 0;
+	width: 1317px;
+	height: 818px;
+	/*margin-left: 201px;
+    padding-left: 48px;*/
+    overflow: hidden;
+    top: 0px;
+	left: 201px;
+	background-size: cover;
+
+}
+.fashion_nav {
+	width: 168px;
+	height: 620px;
+	overflow: hidden;
+	position: absolute;
+	top: 52px;
+	left: 803px;
+	z-index: 10;
+}
+.fashion_nav a {
+	background: url(../images/fashion_nav.png) no-repeat;
+	width: 110px;
+	height: 110px;
+	display: block;
+	position: absolute;
+	text-indent: -999em;
+	overflow: hidden;
+}
+/*.current1 {
+	background: url(../images/fashion_nav.png) no-repeat;
+}*/
+#fashion_nav0 {
+	background: url(../images/fashion_nav.png) no-repeat;
+	background-position: -110px 0;
+	left: 0;
+	
+}
+#fashion_nav1 {
+    left: 56px;
+    top: 56px;
+    background-position: -222px 0;
+}
+#fashion_nav2 {
+    left: 0;
+    top: 112px;
+    background-position: 0 -112px;
+}
+#fashion_nav3 {
+    left: 56px;
+    top: 168px;
+    background-position: -222px -112px;
+}
+#fashion_nav4 {
+    left: 0;
+    top: 224px;
+    background-position: 0 -224px ;
+}
+#fashion_nav5 {
+    left: 56px;
+    top: 282px;
+    background-position: -222px -226px;
+}
+#fashion_nav6 {
+    left: 0;
+    top: 338px;
+    background-position: 0 -338px ;
+}
+#fashion_nav7 {
+    left: 59px;
+    top: 395px;
+    background-position: -222px -339px;
+}
+#fashion_nav8 {
+    left: 0;
+    top: 452px;
+    background-position: 0 -452px ;
+}
+#fashion_nav9 {
+    left: 56px;
+    top: 510px;
+    background-position: -222px -452px;
+}
+.all {
+	position: absolute;
+	background: url(../images/all.png) no-repeat;
+	top: 140px;
+	left: 15px;
+	width: 1090px;
+	color: #000;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	line-height: 22px;
+}
+.all li {
+	padding-left: 40px;
+	width: 755px;
+	height: 22px;
+	line-height: 22px;
+}
+.all li a {
+	line-height: 22px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 3px;
+	cursor: auto;
+	color: #000;
+}
+.all li.all-two {
+	padding-left: 55px;
+}
+.all li.all-three {
+	padding-left: 65px;
+}
+.big_name {
+	position: absolute;
+	left: 612px;
+	top: 653px;
+	margin: 5px 0;
+	padding: 0 2px;
+	color: #fff;
+	font-size: 60px;
+	line-height: 62px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+.middle_name {
+	position: absolute;
+	left: 612px;
+	top: 720px;
+	margin: 5px 0;
+	padding: 0 2px;
+	color: #FFA14F;
+	font-size: 18px;
+	line-height: 30px;
+	height: 30px;
+	background-color: #000;
+	font-family: "Microsoft YaHei";
+}
+.small_name {
+	color: #85DDF0;
+	font-size: 14px;
+	line-height: 16px;
+	position: absolute;
+	left: 612px;
+	top: 758px;
+	font-family: "Microsoft YaHei";
+}
+
+/*第四部分炫酷时装结束*/
+
+/*第五部分游戏图赏开始*/
+.cdd_vision {
+	display: none;
+	width: 1317px;
+	height: 5000px;
+	float: left;
+	position: absolute;
+    top: 0px;
+	left: 205px;
+	background: url(../images/five/vision_bg.jpg) no-repeat -201px 0;
+}
+
+.cdd_vision .vision_ciyuan{
+	background: url(../images/five/vision_ciyuan.png) no-repeat 100% 0;
+	width: 164px;
+	height: 152px;
+	position: absolute;
+	top: 0;
+	left: 88%;
+}
+
+.vision_top .bg_line{
+	width: 936px;
+	height: 3px;
+	margin-left: 58px;	
+	background-color: #000;
+}
+.vision_top .bg_black{
+	width: 234px;
+	height: 45px;
+	margin-left: 58px;	
+	position: absolute;
+	top: 201px;
+	background-color: #000;
+	transition: all 0.3s linear;
+}
+.vision_top ul {
+	width: 936px;
+	height: 45px;
+	margin-top: 201px;
+	margin-left: 58px;
+
+}
+.vision_top ul li{
+	width: 234px;
+	height: 45px;
+	float: left;
+}
+	
+.vision_top ul a{	
+	font-size: 14px;
+	font-weight: bold;
+	color: #282826;
+	width: 234px;
+	height: 45px;	
+	line-height: 45px;
+	text-align: center;
+	z-index: 10;
+	position: absolute;
+}
+.vision_top ul li:nth-child(1) a {
+	left: 58px;
+
+}
+.vision_top ul li:nth-child(2) a {
+	left: 292px;
+}
+.vision_top ul li:nth-child(3) a {
+	left: 526px;
+}
+.vision_top ul li:nth-child(4) a {
+	left: 760px;
+}
+/*截图部分*/
+.vision_jt {
+	 width: 1090px;
+	 display: block;
+}
+.vision_jt ul {
+   width: 1090px;
+   margin-left: 58px;
+   margin-top: 34px;
+}
+.vision_jt ul li{
+	width: 226px;
+	height: 534px;
+	border-bottom: 2px solid #010101;
+	margin-right: 46px;
+	margin-bottom: 12px;
+	float: left;
+
+}
+.vision_jt li .jt_img{
+	width: 226px;
+	height: 506px;
+}
+.vision_jt li .jt_img img{
+	width: 226px;
+	height: 506px;
+}
+.vision_jt li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+
+/*原画部分开始*/
+.vision_yh {
+	 width: 1090px;
+	 margin-left: 58px;
+	 margin-top: 34px;
+	 display: none;
+}
+.vision_yh .vision_leone {
+	width: 226px;
+	margin-right: 46px;
+} 
+.vision_leone ul li{
+	width: 226px;
+	height: 418px;
+	border-bottom: 2px solid #010101;
+	margin-bottom: 12px;
+
+}
+.vision_leone li .yh_img{
+	width: 226px;
+	height: 390px;
+}
+.vision_leone li .yh_img img{
+	width: 226px;
+	height: 390px;
+}
+.vision_leone li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+.vision_yh .vision_letwo {
+	position: absolute;
+	left: 292px;
+	top: 283px;
+	width: 226px;
+	margin-left: 46px;
+} 
+.vision_letwo ul li{
+	width: 226px;
+	height: 522px;
+	border-bottom: 2px solid #010101;
+	margin-bottom: 12px;
+
+}
+.vision_letwo li .yh_img{
+	width: 226px;
+	height: 494px;
+}
+.vision_letwo li .yh_img img{
+	width: 226px;
+	height: 494px;
+}
+.vision_letwo li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+.vision_yh .vision_lethree {
+	position: absolute;
+	left: 564px;
+	top: 283px;
+	width: 226px;
+	margin-left: 46px;
+} 
+.vision_lethree ul li{
+	width: 226px;
+	height: 471px;
+	border-bottom: 2px solid #010101;
+	margin-bottom: 12px;
+
+}
+.vision_lethree li .yh_img{
+	width: 226px;
+	height: 443px;
+}
+.vision_lethree li .yh_img img{
+	width: 226px;
+	height: 443px;
+}
+.vision_lethree li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+
+.vision_yh .vision_lefour {
+	position: absolute;
+	left: 836px;
+	top: 283px;
+	width: 226px;
+	margin-left: 46px;
+} 
+.vision_lefour ul li{
+	width: 226px;
+	height: 508px;
+	border-bottom: 2px solid #010101;
+	margin-bottom: 12px;
+
+}
+.vision_lefour li .yh_img{
+	width: 226px;
+	height: 480px;
+}
+.vision_lefour li .yh_img img{
+	width: 226px;
+	height: 480px;
+}
+.vision_lefour li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+/*壁纸部分*/
+.vision_bz {
+	 width: 1090px;
+	 display: none;
+}
+.vision_bz ul {
+   width: 1090px;
+   margin-left: 58px;
+   margin-top: 34px;
+}
+.vision_bz ul li{
+	width: 226px;
+	height: 142px;
+	border-bottom: 2px solid #010101;
+	margin-right: 46px;
+	margin-bottom: 12px;
+	float: left;
+
+}
+.vision_bz li .bz_img{
+	width: 226px;
+	height: 114px;
+}
+.vision_bz li .bz_img img{
+	width: 226px;
+	height: 114px;
+}
+.vision_bz li .img_fx{
+	width: 226px;
+	height: 28px;
+	background-image: url(../images/five/img_fx.png);
+}
+
+/*静态电影部分*/
+.vision_dy {
+	width: 895px;
+	height: 444px;
+	position: relative;
+	top: 35px;
+	left: 58px;
+	overflow: hidden;
+	display: none;
+}
+.vision_dy .dy_line {
+	width: 895px;
+	height: 2px;
+	background-color: #2F2F2F;
+}
+.dy_bigimg .arr {
+	opacity: 0;
+}
+.dy_bigimg .arr .arrLeft,
+.dy_bigimg .arr .arrRight{
+   width: 50px;
+   height: 290px;
+   color: #313131;
+   display: inline-block;
+   position: absolute;
+   font-size: 60px;
+   text-align: center;
+   line-height: 290px;
+}
+.dy_bigimg .arr .arrLeft{
+	position: absolute;
+	left: 0;
+}
+.dy_bigimg .arr .arrRight{
+	position: absolute;
+	right: 0;
+}
+.dy_bigimg {
+	width: 888px;
+	height: 303px;
+	position: relative;
+	overflow: hidden;
+}
+.dy_bigimg .clearfix1{
+	width: 780px;
+	height: 290px;
+}
+.dy_bigimg .clearfix1 li{
+	width: 780px;
+	height: 290px;
+	position: absolute;
+	left: 58px;
+	/*opacity: 0;*/
+	transition: all 0.5s linear;
+}
+.dy_bigimg .clearfix1 img{
+	width: 780px;
+	height: 290px;
+	position: absolute;
+	/*left: 60px;*/
+}
+.dy_bigimg ol {
+	position: absolute;
+	width: 320px;
+	height: 25px;
+	left: 270px;
+	bottom: 20px;
+
+}
+.dy_bigimg ol li {
+	width: 25px;
+	height: 25px;
+	background-color: #ccc;
+	float: left;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 25px;
+	color: #000;
+	font-size: 14px;
+	border-radius: 50%;
+	cursor: pointer;
+	
+}
+.dy_bigimg ol li.current {
+	color: #fff;
+	background-color: pink;
+}
+/*静态小图*/
+.littleimg{
+	margin-top: 10px;
+	width: 895px;
+	height: 100px;	
+}
+.littleimg span{
+   width: 20px;
+   height: 98px;
+   color: #313131;
+   float: left;
+   display: block;
+   /* position: absolute;*/
+   font-size: 40px;
+   text-align: center;
+   line-height: 98px;
+}
+.littleimg .littleimg_z {
+	position: absolute;
+	left: 0;
+}
+.littleimg .littleimg_y {
+	float: right;
+}
+.littleimg ul{
+	margin-left: 40px;
+	width: 836px;
+	height: 98px;	
+}
+.littleimg ul li {
+	width: 150px;
+	height: 98px;
+	margin-right: 17px;
+	float: left;
+}
+.littleimg ul li img{
+	width: 150px;
+	height: 98px;
+}
+
+/*第五部分游戏图赏结束*/
+
+/*第六部分精彩视频部分开始*/
+.cdd_video {
+	display: none;
+	width: 1317px;
+	height: 808px;
+	/*float: left;*/
+	position: absolute;
+    top: 0px;
+	/*left: 205px;*/
+	background: url(../images/six/video_bg.jpg) no-repeat 201px 0;
+}
+.cdd_video input{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	font-size: 18px;
+	left: 500px;
+	top: 300px;
+}
+
+/*第六部分精彩视频部分开始*/
+
+
+/*底部开始*/
+.cdd_bottom {
+	height: 120px;
+	width: 1519px;
+	background-color: #212121;
+}
+.cdd_bottom img {
+	margin-left: 170px;
+	margin-top: 40px;
+	float: left;
+	
+}
+.cdd_bottom .ul_bot {
+	width: 554px;
+	height: 50px;
+	margin-left: 15px;
+	float: left;
+	margin-top: 38px;
+}
+.cdd_bottom ul li{
+	display: block;
+	float: left;	
+}
+.cdd_bottom ul li a{
+	color: #fff;
+	margin-right: 6px;
+	font-size: 14px;
+}
+.cdd_bottom ul li::after {
+	content: '-';
+	color: #fff;
+	margin-right: 6px;
+}
+.cdd_bottom ul li:last-child::after {
+	content: "";
+}
+
+.cdd_bottom .ul_wz {
+	width: 508px;
+	height: 28px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.cdd_bottom .ul_wz p {
+	float: left;
+}
+.cdd_bottom .ul_wz span {
+	width: 160px;
+	height: 28px;	
+	background-color: #610000;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	float: right;
+}
+/*底部结束*/
